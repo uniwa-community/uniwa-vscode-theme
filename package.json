@@ -1,0 +1,20 @@
+{
+  "name": "uniwa-vscode-theme",
+  "displayName": "UniWA Theme",
+  "description": "A colorscheme inspired by the University of West Attica. Port of uniwa.nvim.",
+  "version": "0.1.0",
+  "publisher": "uniwa-community",
+  "icon": "icon.png",
+  "license": "MIT",
+  "repository": "https://github.com/uniwa-community/uniwa-vscode-theme",
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      { "label": "UniWA", "uiTheme": "vs-dark", "path": "./themes/uniwa-color-theme.json" },
+      { "label": "UniWA Dark", "uiTheme": "vs-dark", "path": "./themes/uniwa-dark-color-theme.json" },
+      { "label": "UniWA Light", "uiTheme": "vs", "path": "./themes/uniwa-light-color-theme.json" },
+      { "label": "UniWA Paper", "uiTheme": "vs", "path": "./themes/uniwa-paper-color-theme.json" }
+    ]
+  }
+}
